@@ -1,26 +1,12 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Background geolocation demo in Ionic 3
+This application is a demo of the background geolocation functionality done with Ionic 3 and Cordova, usable in mobile environments.
+It uses the [background geolocation](https://ionicframework.com/docs/native/background-geolocation/) cordova plugin.
 
-## How to use this template
+## How to use it
+It can be used in mobile environments only, because it dependency of Cordova.
+It's neccesary to have the [Ionic CLI](https://ionicframework.com/docs/cli/) to compile the application to Android, iOS or Windows Phone.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+## References
+This demo was build following the tutorial made by Joshua Morony ([@joshuamorony](https://github.com/joshuamorony)), with very few modifications, in
+[Adding background geolocation to an Ionic 2 application](https://www.joshmorony.com/adding-background-geolocation-to-an-ionic-2-application/) (updated to version 3),
+all credits to him.
